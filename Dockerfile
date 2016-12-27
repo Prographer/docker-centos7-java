@@ -1,3 +1,4 @@
+#referenc https://github.com/sequenceiq/hadoop-docker
 FROM centos:7
 MAINTAINER Prographer J<prographer.j@gmail.com>
 
