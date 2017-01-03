@@ -25,7 +25,7 @@ RUN sed  -i "/^[^#]*UsePAM/ s/.*/#&/"  /etc/ssh/sshd_config
 RUN echo "UsePAM no" >> /etc/ssh/sshd_config
 RUN echo "Port 22" >> /etc/ssh/sshd_config
 
-RUN service sshd start
-
 #open port
 EXPOSE 22
+
+CMD [ "sh", "-c", "service ssh start; bash"]
