@@ -4,18 +4,18 @@ Reference Docker file
 https://github.com/sequenceiq/hadoop-docker
 
 ## Last Version
-java: **8u111**
+java: **1.8.0_111**
 
 ## Reference Docker file
 - https://github.com/sequenceiq/hadoop-docker
 
 ## Installation
 ```sh
-docker pull prographer/centos7-java8:latest
+docker pull prographerj/centos7-java8:latest
 ```
 
 ## Running
 To simply run the container:
 ```sh
-docker run --name java8 /bin/bash
+docker run -i -t --rm --name java8 prographerj/centos7-java8:latest /bin/bash
 ```
