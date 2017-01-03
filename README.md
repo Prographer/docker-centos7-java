@@ -1,5 +1,8 @@
 CentOS 7 + Oracle Java 8
 
+Reference Docker file
+https://github.com/sequenceiq/hadoop-docker
+
 ## Last Version
 java: **8u111**
 
